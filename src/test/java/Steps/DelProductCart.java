@@ -49,7 +49,7 @@ public class DelProductCart {
 
         int ExpectedStatus= 200;
 
-        BDDStyled.DeleteCart(ProdDel,API_URL_Delete,ExpectedStatus);
+        BDDStyled.DeleteCart(ProdDel,API_URL_Delete,ExpectedStatus,"Not found.");
         BDDStyled.ViewCart(ProdView,API_URL_View,ExpectedStatus,0);
     }
 
@@ -71,7 +71,7 @@ public class DelProductCart {
 
         int ExpectedStatus= 200;
 
-        BDDStyled.DeleteCart(ProdDel,API_URL_Delete,ExpectedStatus);
+        BDDStyled.DeleteCart(ProdDel,API_URL_Delete,ExpectedStatus,"Not found.");
         BDDStyled.ViewCart(ProdView,API_URL_View,ExpectedStatus,2);
     }
 
@@ -103,7 +103,7 @@ public class DelProductCart {
 
         int ExpectedStatus= 200;
 
-        BDDStyled.DeleteCart(ProdDel,API_URL_Delete,ExpectedStatus);
+        BDDStyled.DeleteCart(ProdDel,API_URL_Delete,ExpectedStatus,"Bad parameter, missing id");
         BDDStyled.ViewCart(ProdView,API_URL_View,ExpectedStatus,2);
     }
 

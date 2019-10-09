@@ -105,7 +105,7 @@ public class AddProductCart {
         int View_StatusCode= 200;
 
 
-        BDDStyled.Addtocart(ProdAdd,API_URL_Add,Expected_StatusCode);
+        BDDStyled.Addtocart(ProdAdd,API_URL_Add,Expected_StatusCode,"Bad parameter, flag is incorrect.");
         BDDStyled.ViewCart(ProdAdd,API_URL_View,View_StatusCode,3);
     }
 

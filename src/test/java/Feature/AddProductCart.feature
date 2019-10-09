@@ -27,6 +27,7 @@ Feature:
     Given Product with no flag info in body
     Then API request is a failure with Bad Parameter Request,incorrect flag
 
+
   Scenario: Verify Product Addition to cart fails if param information holds null value in Body
     Given Product with one or more information values is Null in body
     Then API request is a failure with Internal Error
