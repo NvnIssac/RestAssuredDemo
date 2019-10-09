@@ -18,7 +18,7 @@ public class AddProductCart {
         JSONObject ProdAdd= new JSONObject();
         ProdAdd.put("id","049fdb12-346-0eb0-1ee3-1cb0d691181c");
         ProdAdd.put("cookie","user=d8f30016-1344-9521-fe08-ebeda0feeac4");
-        ProdAdd.put("prod_id",7);
+        ProdAdd.put("prod_id",5);
         ProdAdd.put("flag",false);
 
         int Expected_StatusCode= 200;
@@ -41,7 +41,7 @@ public class AddProductCart {
         JSONObject ProdAdd= new JSONObject();
         ProdAdd.put("id","049fdb13-346-0ec0-1ef3-1cb0d691181c");
         ProdAdd.put("cookie","user=d8f30016-1344-9521-fe08-ebeda0feeac4");
-        ProdAdd.put("prod_id",2);
+        ProdAdd.put("prod_id",14);
         ProdAdd.put("flag",false);
 
         int Expected_StatusCode= 200;
@@ -59,7 +59,7 @@ public class AddProductCart {
         JSONObject ProdAdd= new JSONObject();
         ProdAdd.put("id","049fdb13-346-0ed0-1ef3-1db0d691181d");
         ProdAdd.put("cookie","user=d8f30016-1344-9521-fe08-ebeda0feeac4");
-        ProdAdd.put("prod_id",2);
+        ProdAdd.put("prod_id",14);
         ProdAdd.put("flag",false);
 
         int Expected_StatusCode= 200;
@@ -77,7 +77,7 @@ public class AddProductCart {
         JSONObject ProdAdd= new JSONObject();
         ProdAdd.put("id","049fdb13-346-0ed0-1ef3-1db0d691181d");
         ProdAdd.put("cookie","user=d8f30016-1344-9521-fe08-ebeda0feeac4");
-        ProdAdd.put("prod_id",2);
+        ProdAdd.put("prod_id",14);
         ProdAdd.put("flag",false);
 
         int Expected_StatusCode= 200;
@@ -99,7 +99,7 @@ public class AddProductCart {
         JSONObject ProdAdd= new JSONObject();
         ProdAdd.put("id","049fdb13-346-0ed0-1ef3-1db0d691181d");
         ProdAdd.put("cookie","user=d8f30016-1344-9521-fe08-ebeda0feeac4");
-        ProdAdd.put("prod_id",2);
+        ProdAdd.put("prod_id",14);
 
         int Expected_StatusCode= 200;
         int View_StatusCode= 200;
